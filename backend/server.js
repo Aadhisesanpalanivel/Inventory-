@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB Connection
-const MONGODB_URI = "mongodb://localhost:27017/stockify";
+const MONGODB_URI = "mongodb+srv://aadhiaadhi5435:Aadhipriyanka@2131@cluster0.xw5k4vx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/stockify";
 mongoose.connect(MONGODB_URI)
   .then(() => console.log('Connected to MongoDB'))
   .catch(err => console.error('MongoDB connection error:', err));
