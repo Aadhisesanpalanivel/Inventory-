@@ -2,7 +2,7 @@ import { create } from 'zustand';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-const API_URL = 'http://localhost:5000/api/order';
+const API_URL = 'https://inventory-r90g.onrender.com/api/order';
 
 const useOrderStore = create((set) => ({
   orders: [],
