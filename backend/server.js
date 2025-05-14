@@ -8,7 +8,7 @@ const app = express();
 // Middleware
 app.use(cors({
   origin:"https://inventory-tau-one.vercel.app/"
-  ));
+});
 app.use(express.json());
 
 // MongoDB Connection
